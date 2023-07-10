@@ -1,0 +1,127 @@
+.main{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 70px 0 90px 0;
+    /* background-image:url("./Image/vote.jpg"); */
+}
+.sub-main
+{
+    display: flex;
+    justify-content: center;
+    
+    height: 500px;
+    width: 40%;
+    box-shadow: 11px 12px 13px 12px rgb(rgb(240, 233, 239));
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 60px;
+    background-color: rgba(255, 177, 163, 0.861);
+}
+.img
+{
+    
+    padding-top: 20px;
+
+    justify-content: center;
+    display: flex;
+}
+.container-img
+{
+    background-color: rgba(255, 177, 163, 0.861);
+    border-radius: 150px;
+    align-items: center;
+    display: flex;
+    height: 115px;
+    width: 115px;
+
+}
+.user1
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 150px;
+    background-color: #fff;
+    
+}
+input
+{
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px #888;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+    
+}
+.gmail
+{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    padding: 14px 0 0 25px;
+    
+}
+.password
+{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    padding: 14px 0 0 25px;
+
+}
+.name{
+   
+    font-size: 20px;
+}
+.sec
+{
+    padding-top: 25px;
+}
+button
+{
+    width: 380px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: #f7c7df;
+    color: white;
+    font-size: 25px;
+    border: none;
+    
+}
+.logbutton
+{
+    padding-top: 25px;
+}
+.link
+{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+a{
+    color: blueviolet;
+}
+::placeholder
+{
+    text-align: center;
+    text-justify: auto;
+}
+
+h2{
+    text-align: center;
+}
+
+.right
+{
+    padding-left: 40%;
+    width: 50%;
+    height: 30%;
+    border-radius: 150px;
+    align-items: center;
+    display: flex;
+    height: 115px;
+    width: 115px;
+}
