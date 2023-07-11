@@ -1,0 +1,88 @@
+.reg
+{
+
+ /* padding-top: 50px; */
+    padding-left: 50px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    padding: 50px 10px 10px 100px;
+    background-image:url("./Image/img\ Ad\ 03.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size:cover; */
+   
+    /* height: 100vh; */
+    
+}
+
+
+.registration-form-container {
+  /* max-width: 800px;
+  padding: 0px;
+  background-color: #d2d5d7;
+  box-shadow: 11px 12px 13px 12px rgb(rgb(175, 183, 188));
+  padding-top: 20px;
+  padding-left: 30px;
+  /* border-radius: 60px; */
+  /* padding: 50px 50px 10px 50px;
+  position: relative;
+  margin: auto; */
+  /* text-align: right; */
+  
+max-width: 400px;
+margin: 0 auto;
+padding: 20px;
+background-color: aliceblue;
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.form-group1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input{
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  padding: 5px 10px;
+  /* padding-right: 50px */
+  
+}
+select {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
