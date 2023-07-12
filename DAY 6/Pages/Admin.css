@@ -1,0 +1,172 @@
+.min{
+    
+    /* justify-content: center; */
+    display: flex;
+    padding: 90px 890px 90px 0;
+    background-image: url("../Image/All.jpg");
+    width: 100%;
+    
+    /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size:cover; */
+  text-align:center;
+  height: 100vh;
+  font-family: 'Times New Roman';
+  padding-top: 100px;
+    
+}
+.login-container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: fit-content;
+  }
+/* .sub-min
+{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 40%;
+    padding-bottom: 10px; */
+    /* box-shadow: 11px 12px 13px 12px rgb(rgb(255, 121, 121)); */
+    /* padding-top: 4px;
+    padding: auto;
+    border-radius: 20px;
+    background-color: rgba(145, 177, 191, 0.1);
+} */
+.img
+{
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+.container-img
+{
+    /* background-color: rgb(156, 218, 231); */
+    border-radius: 150px;
+    align-items: center;
+    display: flex;
+    height: 115px;
+    width: 115px;
+
+}
+.user1
+{
+    height: 90px;
+    width: 90px;
+    border-radius: 150px;
+    background-color: #fff;
+}
+input,select
+{
+    width: 200px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px #888;
+    border: none;
+    outline: none;
+    background-color: rgb(202, 212, 214);
+    text-align: center;
+}
+.gmail
+{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    padding: 14px 0 0 25px;
+    
+}
+.password
+{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    padding: 14px 0 0 25px;
+
+}
+.name{
+   
+    font-size: 20px;
+}
+.sec
+{
+    padding-top: 25px;
+}
+
+
+button {
+        border-radius: 60px;
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+
+.logingbutton
+{
+    padding-top:320px;
+    justify-content: center;
+    position: absolute;
+    
+}
+.link
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+a{
+    color: blueviolet;
+}
+label
+{
+    text-align: center;
+    text-justify: auto;
+    color: black;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+.Vote
+{
+    color: rgb(70, 67, 67);
+    text-decoration: none;
+    text-align: center;
+}
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+.bu 
+{
+    /* border-radius: 60px; */
+        display: block;
+        width: 80%;
+        padding: 10px;
+        margin-top: 10px;
+        padding-left: 70px;
+        /* background-color: #4caf50; */
+
+}
+.bo
+{
+    /* border-radius: 60px; */
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        padding-left: 30px;
+        /* background-color: #4caf50; */
+
+}
