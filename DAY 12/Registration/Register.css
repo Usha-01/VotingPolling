@@ -1,0 +1,134 @@
+/* SplitScreenRegistration.css */
+.split-screen-container1 {
+  display: flex;
+  height: 100vh;
+  /* overflow: hidden; */
+ 
+  
+}
+
+.left-side1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 20px; */
+  background-color: #f0f0f0;
+  padding-top: 500px;
+  height: 100vh;
+  margin-bottom: 1rem;
+
+}
+
+.left-side1 h2 {
+  margin-bottom: 20px;
+}
+
+.left-side1 .form-group1 {
+  margin-bottom: 15px;
+}
+
+.left-side1 .form-group1 label {
+  display: block;
+  font-weight: bold;
+}
+
+.left-side1 .form-group1 input,
+.left-side1 .form-group1 select {
+ 
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.left-side1 button {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.left-side1 button:hover {
+  background-color: #0056b3;
+}
+
+.right-side1 {
+  flex: 1;
+}
+
+.register-banner {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.alert-message1 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.left-side2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 20px; */
+  background-color: transparent;
+  padding-top: 50px;
+  height: 100vh;
+  margin-bottom: 1rem;
+
+}
+
+.left-side2 h2 {
+  margin-bottom: 20px;
+}
+
+.left-side2 .form-group1 {
+  margin-bottom: 15px;
+}
+
+.left-side2 .form-group1 label {
+  display: block;
+  font-weight: bold;
+}
+
+.left-side2 .form-group1 input,
+.left-side2 .form-group1 select {
+ 
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+.left-side2 button {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.left-side2 button:hover {
+  background-color: #0056b3;
+}
