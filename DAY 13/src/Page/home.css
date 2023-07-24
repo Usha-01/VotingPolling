@@ -1,0 +1,253 @@
+.so {
+    font-family: cursive;
+    font-size: small;
+    text-align: center;
+    padding-top: 250px;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .so {
+      padding-top: 150px;
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .so {
+      padding-top: 100px;
+      font-size: 12px;
+    }
+  }
+  
+
+
+
+/* CandidateAdd */
+
+  /* .ma .container
+{
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.form-group
+{
+   width: 200px;
+} */
+
+/* home.css */
+
+/* .ma {
+  padding: 20px;
+}
+
+.candidate-row {
+  margin-bottom: 20px;
+}
+
+.form-control1 {
+  width: 100%;
+}
+
+h5 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+ */
+
+/* 
+
+ .candidate-add-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-containerr {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.form-containerr input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-add {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-add:hover {
+  background-color: #45a049;
+}
+
+.btn-update {
+  background-color: #4285f4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s;
+}
+
+.btn-update:hover {
+  background-color: #3c79e0;
+}
+
+.candidates-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.candidates-table th,
+.candidates-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.candidates-table th {
+  background-color: #f2f2f2;
+}
+
+
+ */
+
+
+ .candidate-add-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-add,
+.btn-update {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-update {
+  background-color: #4285f4;
+  margin-left: 10px;
+}
+
+.btn-add:hover,
+.btn-update:hover {
+  background-color: #45a049;
+}
+
+.view-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-view {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-view:hover {
+  background-color: #0056b3;
+}
+
+.candidates-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.candidates-table th,
+.candidates-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.candidates-table th {
+  background-color: #f2f2f2;
+}
+
+
+
+

@@ -1,0 +1,18 @@
+.ballot
+{
+    background-image: url("../Image/download.jpeg");
+    padding-bottom: 60px;
+    font-family:  "Helvetica Neue" ;
+    font-size: large;
+    font-weight: 500;
+    /* background-image: url("../Image/inn.jpeg"); */
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding-left: 1500px;
+    overflow: hidden;
+    padding-bottom: 10px;
+   
+}

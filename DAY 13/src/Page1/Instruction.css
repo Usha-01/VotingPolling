@@ -1,0 +1,31 @@
+.in{
+    padding-bottom: 60px;
+    font-family:  "Helvetica Neue" ;
+    font-size: large;
+    font-weight: 500;
+    /* background-image: url("../Image/inn.jpeg"); */
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+   
+}
+.inn
+{
+    text-align: center;
+    justify-content: center;
+    /* padding-left: 440px; */
+    width: 100%;
+}
+li
+{
+    padding: 20px;
+    padding-left: 5px;
+    
+}
+h1{
+    padding-top: 40px;
+
+}
+.ma{
+    width:100%;
+}

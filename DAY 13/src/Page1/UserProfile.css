@@ -1,0 +1,74 @@
+/* UserProfile.css */
+
+/* Base styles for larger screens */
+.profile-container {
+    max-width: 500px;
+    margin-left: 550px ;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 400px;
+    margin-top: 200px;
+    
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-header h1 {
+    font-size: 24px;
+}
+
+.profile-details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.profile-details p {
+    margin: 5px 0;
+}
+
+.profile-voting-history h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.profile-voting-history ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-voting-history li {
+    margin-bottom: 5px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .profile-container {
+        max-width: 100%;
+        margin: 20px auto; /* Center the profile container */
+        margin-bottom: 200px;
+    }
+    
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .profile-header img {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
+

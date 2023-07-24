@@ -1,0 +1,65 @@
+/* .fl
+{
+    padding-top: 20px;
+    
+}
+    
+#home1
+{
+    background-color: rgb(181, 179, 179);
+    background-size: cover;
+    height: 100vh;
+    background-image: url("../Image/votee1.jpeg");
+}
+
+.so
+{
+    font-family:cursive;
+    font-size: small;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.tool
+{
+    padding-left: 300px;
+}
+
+
+ */
+
+
+/* home.css */
+
+/* Common styles for all screen sizes */
+.so {
+    font-family: cursive;
+    font-size: small;
+    text-align: center;
+    padding-top: 250px;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .so {
+      padding-top: 150px;
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .so {
+      padding-top: 100px;
+      font-size: 12px;
+    }
+  }
+  .ig
+  {
+    background-color: lightgray;
+  }
+
+
+  .home1
+  {
+    background-image: url("../Image/vote.jpg");
+  }
