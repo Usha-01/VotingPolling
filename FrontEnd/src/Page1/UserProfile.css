@@ -1,0 +1,83 @@
+
+
+ .profile-root
+{
+    padding-top: 5%;
+  
+
+}
+.profile-field
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    color: rgb(24, 27, 27);
+}
+
+.profile-value
+{
+    color: rgb(70, 128, 175);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:16px;
+}
+
+.left-side {
+    flex: 1; /* This makes the image container take up the remaining space in the flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-side img {
+    max-height: 30%;
+    max-width: 30%;
+    /* height: auto;
+    width: auto;
+    padding-left: 100px; */
+  }
+  
+
+  main
+  {
+    background-image: url("../Image/back.jpeg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    height: 100vh;
+    background-position: fixed;
+  } 
+  
+  /* Base styles for the right-side user profile details */
+  .right-side {
+  overflow: hidden;
+    flex: 1;
+  }
+  
+  /* Media queries for responsive layout */
+  
+  /* For screens smaller than 768px */
+  @media (max-width: 767px) {
+    .fle {
+      flex-direction: column; /* Stack the left-side and right-side components vertically */
+    }
+  
+    .right-side {
+      margin-top: 20px; /* Add some space between the left-side and user profile details */
+    }
+  }
+  
+  /* For screens larger than 768px */
+  @media (min-width: 768px) {
+    .fle {
+      flex-direction: row; /* Display the left-side and right-side components side by side */
+    }
+  
+    .left-side,
+    .right-side {
+      flex: 1;
+    }
+  
+    .right-side {
+      margin-left: 20px; /* Add some space between the left-side and user profile details */
+    }
+  }
+  

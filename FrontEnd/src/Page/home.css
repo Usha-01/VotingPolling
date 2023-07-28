@@ -1,0 +1,53 @@
+.so {
+    font-family: cursive;
+    font-size: small;
+    text-align: center;
+    padding-top: 250px;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .so {
+      padding-top: 150px;
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .so {
+      padding-top: 100px;
+      font-size: 12px;
+    }
+  }
+  
+
+
+
+
+
+/* Voter detail */
+.voter-detail-container {
+  padding-left:600px;
+  padding-top: 40px;
+  
+}
+
+.voter-detail {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 5px;
+}
+
+strong {
+  margin-right: 5px;
+}
+

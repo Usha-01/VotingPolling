@@ -1,0 +1,172 @@
+
+/* Add CSS for split-screen layout */
+.reg-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-bottom: 50px;
+}
+
+.split-screen-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cover {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Set your desired background color for the cover page */
+}
+
+.registration-form-container {
+  overflow: scroll;
+  flex: 1;
+  max-width: 400px;
+  /* padding-bottom: 70px; */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+Register.css
+
+/* Styles for the main container */
+.reg-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-bottom: 40px;
+}
+
+/* Styles for the registration form container */
+.registration-form-container {
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+ 
+}
+
+/* Styles for the form elements */
+.form-group {
+  margin-bottom: 15px;
+  padding-left: 70px;;
+}
+
+
+.registration-form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  
+}
+
+.registration-form-container input,
+.registration-form-container select {
+  width: 150%;
+  /* padding-right: 100px; */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+/* Styles for the checkbox and its label */
+span {
+  display: flex;
+  align-items: center;
+}
+
+/* Styles for the 'Register' button */
+button[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.buttonn
+{
+  width: 80%;
+  padding-left: 50px;
+}
+
+/* Styles for the 'Already registered?' link */
+.links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.links p {
+  margin-right: 5px;
+}
+
+.links a {
+  color: #4caf50;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+/* Register.css */
+/* Existing CSS... */
+
+/* Add CSS for responsiveness */
+@media (max-width: 768px) {
+  /* For screens up to 768px (e.g., tablets and smaller devices) */
+  .split-screen-container {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  
+  .cover,
+  .registration-form-container {
+    max-width: 100%;
+    margin: 10px;
+  }
+  
+  .registration-form-container {
+    padding: 15px;
+  }
+  
+  .form-group {
+    padding-left: 0;
+  }
+  
+  .registration-form-container input,
+  .registration-form-container select {
+    width: 100%;
+  }
+  
+  .buttonn {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+/* Other existing CSS... */
+
+
